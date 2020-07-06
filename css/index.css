@@ -1,0 +1,90 @@
+		.carousel-indicators li{
+			width:.8rem;height: .8rem;
+			border-radius: 50%;
+			background-color: #888;
+			}
+		.carousel-item{
+			height: 455px;
+		}
+		.carousel-indicators .active {
+			background-color: #111;
+		}
+		.carousel-control-prev,
+		.carousel-control-next{
+			position: absolute;
+			width: 1.875rem;
+			height: 1.875rem;
+			top:23%;
+			background-color: #555;
+			border-radius: 50%;
+		}	
+		.carousel-control-prev{
+		left: 26rem;
+		}
+		.carousel-control-next{
+			right:26rem;
+		}
+		.carousel-indicators{
+			top: 115%;
+		}
+		
+		.carousel-inner .carousel-item img{
+				width: 254px;
+				height: 198px;
+			}
+		.page-link{
+							border-radius: 50%;
+							background-color: #f8f8f8;
+							border-color: #777;
+							color: #777;
+						}
+		 .page-item+.page-item{margin-left:0.25rem;}
+		 .page-link:hover{
+							background-color: #777;
+							color: #f8f8f8;
+						}
+		 .page-item:first-child .page-link{
+			 border-top-left-radius: 50%;
+			 border-bottom-left-radius: 50%;
+		 }
+		 .page-item:last-child .page-link{
+		 			 border-top-right-radius: 50%;
+		 			 border-bottom-right-radius: 50%;
+		 }
+		 .mt-10{
+			 margin-top: 6rem !important;
+		 }
+		 .ml-10{
+			 margin-left: 6rem !important;
+		 }
+		 .mt-15{
+		 			 margin-top: 9rem !important;
+		 }
+		 .media-body p{
+			  width: 15rem;
+		 }
+		 
+		.nav-tabs .nav-link:hover, .nav-link:focus {
+		   border-bottom: 2px solid #777;
+		 }
+		 .nav-tabs .nav-link {
+		   border:none;
+		 }
+		 .nav-tabs .nav-link.active,
+		 .nav-tabs .nav-item.show .nav-link {
+		   color: #495057;
+		   background-color: transparent;
+		   border-color: #dee2e6 #dee2e6 #86888a;
+		 }
+	  #tab3>.media>a>img{
+			width: 1.75rem;
+			height: 1.75rem;
+		}
+		#tab3 .media-body>p>a>img{
+			width: 15rem;
+			height:11rem
+		}
+		#tab4>a{
+			border:1px solid #777;
+		}
+	 
